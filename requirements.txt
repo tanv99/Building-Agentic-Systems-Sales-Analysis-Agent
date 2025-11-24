@@ -1,0 +1,25 @@
+# Core Dependencies
+crewai>=0.80.0
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.18.0
+
+# Statistical Analysis
+scipy>=1.11.0
+
+# LLM Integration (OpenRouter)
+openai>=1.0.0
+
+# Optional but Recommended
+# For better error handling and logging
+tenacity>=8.2.3
+
+# For CrewAI dependencies
+pydantic>=2.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.5

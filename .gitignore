@@ -1,0 +1,162 @@
+# ===================================
+# Python
+# ===================================
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.pyc
+.Python
+
+# ===================================
+# Virtual Environments
+# ===================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ===================================
+# Environment Variables (CRITICAL - Contains API Keys)
+# ===================================
+.env
+.env.local
+.env.*.local
+
+# ===================================
+# IDEs and Editors
+# ===================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# ===================================
+# Operating System Files
+# ===================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ===================================
+# Output Files (Project Specific)
+# ===================================
+outputs/reports/*.txt
+outputs/visualizations/*.html
+outputs/eval/metrics.jsonl
+
+# Keep directory structure but ignore contents
+!outputs/reports/.gitkeep
+!outputs/visualizations/.gitkeep
+!outputs/eval/.gitkeep
+
+# ===================================
+# Data Files
+# ===================================
+# Ignore large datasets but keep sample data
+data/*_large.csv
+data/*_cleaned.csv
+data/*.bak
+
+# Keep the main dataset
+!data/ecommerce_q3_2024.csv
+
+# ===================================
+# Jupyter Notebooks
+# ===================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===================================
+# Testing
+# ===================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ===================================
+# Distribution / Packaging
+# ===================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===================================
+# Logs
+# ===================================
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===================================
+# Documentation Builds
+# ===================================
+docs/_build/
+site/
+
+# ===================================
+# Backup Files
+# ===================================
+*.bak
+*.backup
+*.tmp
+*~
+
+# ===================================
+# CrewAI Specific
+# ===================================
+.crewai/
+
+# ===================================
+# Misc
+# ===================================
+.cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
